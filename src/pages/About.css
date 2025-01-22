@@ -1,0 +1,42 @@
+/* Container Styles */
+.about-container {
+    margin-top: 20px;
+    padding: 0 15px;
+    background-color: #f9f9f9;
+    padding: 40px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Typography */
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+h2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: #007bff;
+}
+
+p, li {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+/* List Styles */
+ul {
+    padding-left: 20px;
+    list-style-type: disc;
+}
+
+ul li {
+    margin-bottom: 10px;
+}

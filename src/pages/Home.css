@@ -1,0 +1,74 @@
+.cards .card {
+    height: 100%; /* Ensure all cards take up the full height of their container */
+    display: flex;
+    flex-direction: column; /* Align card body at the bottom */
+}
+
+.cards .card-img-overlay {
+    z-index: 1;
+    opacity: 0; /* Initially hide the overlay */
+    transition: opacity 0.3s ease-in-out;
+}
+
+.cards .card:hover .card-img-overlay {
+    opacity: 1; /* Show overlay on hover */
+    z-index: 10;
+}
+
+.cards .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+}
+
+.cards .card-img-top {
+    height: 200px; /* Adjust as needed for consistency */
+    object-fit: cover; /* Ensure images fill the space without distortion */
+}
+
+.cards .card-body {
+    flex-grow: 1; /* Stretch to fill available space */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Distribute content evenly */
+}
+
+.cards .btn {
+    align-self: center; /* Center the button */
+    pointer-events: auto;/* Make button clickable */
+    z-index: 20;
+}
+
+.hero-section {
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+    margin-bottom: 40px;
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero-section p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.hero-section .btn {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.hero-section .btn:hover {
+    background-color: #0056b3;
+}

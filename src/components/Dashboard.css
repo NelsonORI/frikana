@@ -1,0 +1,39 @@
+/* Navbar Styles */
+.navbar {
+    background-color: #343a40 !important; /* Darker blue color */
+    padding: 15px 20px;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+}
+
+.navbar-brand img {
+    margin-right: 10px;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1.1rem;
+    padding: 10px 15px;
+    color: white;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+    background-color: #20c997; /* Darker hover color */
+    border-radius: 5px;
+    color: white;
+}
+
+/* Toggler Icon */
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler-icon {
+    color: white;
+}
